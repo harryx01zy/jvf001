@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+
+/* Yahaan aap apne custom global styles add kar sakte hain */
+body {
+  scroll-behavior: smooth; /* Smooth scrolling ke liye */
+}
+
+/* Consistent Button Style (Bonus Tip) */
+/* Aap ek common button style bana sakte hain */
+.btn-primary {
+  @apply bg-amber-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-amber-600 transition-colors duration-300;
+}
